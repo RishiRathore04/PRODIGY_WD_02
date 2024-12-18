@@ -5,26 +5,27 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f9;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 .stopwatch {
     text-align: center;
-    background-color: #fff;
+    background-color: #1e1e1e;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-    color: #333;
+    color: #e0e0e0;
     margin-bottom: 20px;
 }
 
 #time-display {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #4a90e2;
+    color: #bb86fc;
 }
 
 .controls button {
@@ -38,27 +39,27 @@ h1 {
 }
 
 #start {
-    background-color: #4caf50;
-    color: white;
+    background-color: #03dac6;
+    color: #121212;
 }
 
 #pause {
-    background-color: #ff9800;
-    color: white;
+    background-color: #ffb74d;
+    color: #121212;
 }
 
 #reset {
-    background-color: #f44336;
-    color: white;
+    background-color: #cf6679;
+    color: #121212;
 }
 
 #lap {
     background-color: #2196f3;
-    color: white;
+    color: #121212;
 }
 
 .controls button:hover {
-    filter: brightness(90%);
+    filter: brightness(110%);
 }
 
 #laps {
@@ -68,8 +69,9 @@ h1 {
 }
 
 #laps li {
-    background-color: #e1eaf6;
+    background-color: #333;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
+    color: #e0e0e0;
 }
